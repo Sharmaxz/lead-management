@@ -1,0 +1,81 @@
+/* Centraliza o conteúdo e define um fundo branco */
+.ant-tabs-nav-wrap {
+    background: #fff !important;
+}
+
+/* Fundo branco e borda no container das tabs */
+.custom-tabs .ant-tabs-nav {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px 6px 0 0;
+}
+
+.custom-tabs .ant-tabs-nav-list {
+    display: flex;
+    width: 100%;
+}
+
+.custom-tabs .ant-tabs-tab {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: unset !important;
+
+}
+
+.custom-tabs .ant-tabs-tab:hover {
+    color: #000;
+}
+
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000 !important;
+    font-weight: 500;
+}
+
+.custom-tabs .ant-tabs-ink-bar {
+    background-color: #fa8c16 !important;
+    height: 3px !important;
+    width: 50% !important;
+}
+
+.custom-tabs .ant-tabs-tab:nth-child(2).ant-tabs-tab-active ~ .ant-tabs-ink-bar {
+    transform: translateX(100%);
+}
+
+/* Estilo da tab ativa */
+.custom-tabs .ant-tabs-tab-active {
+    color: #000;
+    font-weight: bold;
+}
+
+.custom-tabs .ant-tabs-tab + .ant-tabs-tab {
+    border-left: 1px solid #ddd;
+}
+
+/* Ajusta os Cards dos Leads */
+.lead-card {
+    margin-bottom: 16px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ações dentro do card */
+.lead-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Preço do Lead */
+.lead-price {
+    color: #fa8c16;
+    font-weight: bold;
+}

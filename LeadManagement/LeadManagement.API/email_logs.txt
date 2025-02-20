@@ -1,0 +1,15 @@
+To: vendas@test.com
+Subject: Lead Aceito
+Body:
+O lead string foi aceito. Preço final: 100.0
+
+To: vendas@test.com
+Subject: Lead Aceito
+Body:
+O lead  foi aceito. Preço final: 26.00
+
+To: vendas@test.com
+Subject: Lead Aceito
+Body:
+O lead Sanderson foi aceito. Preço final: 32.0
+

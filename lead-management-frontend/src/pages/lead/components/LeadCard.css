@@ -1,0 +1,54 @@
+.lead-card {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 1px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+}
+
+.small-divider {
+    margin: 8px 0;
+}
+
+.lead-description {
+    display: block;
+    margin-top: 2px;
+    color: #666;
+}
+
+.lead-contact {
+    margin-top: 12px;
+}
+
+.lead-actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.accept-btn {
+    background-color: #fa8c16;
+    border-bottom: 2px solid #c35e19;
+    border-radius: 3px;
+    color: #fdf7f3;
+    padding: 18px 25px;
+    font-weight: bold;
+}
+
+.decline-btn {
+    background-color: #e0e0e0;
+    border-bottom: 2px solid #b4b4b4;
+    border-radius: 3px;
+    color: #575656;
+    padding: 18px 25px;
+    font-weight: bold;
+}
+
+.lead-price {
+    color: #5a5959;
+    font-weight: bold;
+    margin: 5px 5px 5px 30px;
+    font-size: 14px;
+}

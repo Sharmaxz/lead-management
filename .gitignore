@@ -17,6 +17,7 @@ obj/
 *.db-shm
 *.db-wal
 
+.vs/
 .vscode/
 *.suo
 *.user
