@@ -62,26 +62,23 @@ cd lead-management
 
 3. **Verifique a URL da API** no arquivo `src/pages/lead/Leads.tsx`:
    ```js
-           axios.get("https://localhost:7168/api/leads")
-            .then(response => setLeads(response.data))
-            .catch(error => console.error("Erro ao buscar leads:", error));
+    axios.get("https://localhost:7168/api/leads")
+        .then(response => setLeads(response.data))
+        .catch(error => console.error("Erro ao buscar leads:", error));
    ```
 
 4. **Inicie o servidor de desenvolvimento**:
    ```bash
    npm start
    ```
-   ou
-   ```bash
-   yarn start
-   ```
 
-5. O frontend estará disponível em `http://localhost:3000`.
+
+5. O frontend estará disponível em `http://localhost:5173`.
 
 ---
 
 ## 🌟 **Tecnologias Utilizadas**
-✅ **Backend**: .NET 6, Entity Framework, SQL Server
+✅ **Backend**: .NET 6, Entity Framework, MediaR
 ✅ **Frontend**: React, Ant Design, Axios  
 ✅ **Banco de Dados**: SQL Server e SQLite
 
