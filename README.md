@@ -46,6 +46,7 @@ cd lead-management
    dotnet run
    ```
    A API estará disponível em `https://localhost:7168`.
+
    O Swagger estará disponível em `https://localhost:7168/swagger/index.html`.
 ---
 
@@ -78,9 +79,9 @@ cd lead-management
 ---
 
 ## 🌟 **Tecnologias Utilizadas**
-✅ **Backend**: .NET 6, Entity Framework, MediaR
-✅ **Frontend**: React, Ant Design, Axios  
-✅ **Banco de Dados**: SQL Server e SQLite
+- **Backend**: .NET 6, Entity Framework, MediaR
+- **Frontend**: React, Ant Design, Axios  
+- **Banco de Dados**: SQL Server e SQLite
 
 ---
 

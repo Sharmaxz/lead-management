@@ -35,7 +35,7 @@ namespace LeadManagement.Application.Features.Leads.Handlers
 			await _repository.UpdateLeadAsync(lead);
 
 			await _eventRepository.SaveEventAsync(new BaseEvent(
-				"LeadDeclined",
+				"LeadAccepted",
 				 JsonSerializer.Serialize(new { lead.Id, lead.ContactFullName, lead.Status })
 			));
 

@@ -1,9 +1,7 @@
-/* Centraliza o conteúdo e define um fundo branco */
 .ant-tabs-nav-wrap {
     background: #fff !important;
 }
 
-/* Fundo branco e borda no container das tabs */
 .custom-tabs .ant-tabs-nav {
     background: #fff;
     border: 1px solid #ddd;
@@ -48,7 +46,6 @@
     transform: translateX(100%);
 }
 
-/* Estilo da tab ativa */
 .custom-tabs .ant-tabs-tab-active {
     color: #000;
     font-weight: bold;
@@ -58,7 +55,6 @@
     border-left: 1px solid #ddd;
 }
 
-/* Ajusta os Cards dos Leads */
 .lead-card {
     margin-bottom: 16px;
     background-color: #fff;
@@ -67,14 +63,12 @@
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Ações dentro do card */
 .lead-actions {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-/* Preço do Lead */
 .lead-price {
     color: #fa8c16;
     font-weight: bold;
